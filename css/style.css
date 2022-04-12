@@ -13,26 +13,39 @@
 img{
   display: block;
   margin: 0 auto;
+  margin: 1% 2%;
+
 }
 
-body *{
-  border: 3px solid black;
+body{
+  background: no-repeat url('background.png') center/cover;
+  height: 1750px;
+}
+
+h2,h3{
+  color: white;
 }
 
 .grid{
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  margin: 0 2%;
 }
 
-img{
-  margin: 1% 2%;
+.grid1, h3{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+input{
+  margin-bottom: 4%;
 }
 
 h2{
   width: 20%;
 }
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
